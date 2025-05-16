@@ -29,7 +29,7 @@ bot.setMyCommands(commands);
 bot.onText(/\/start/, (msg) => {
     let name = msg.chat.first_name;
     const chatId = msg.chat.id;
-    const welcomeMessage = `Hey ${name}! \n\nWelcome to Memeartai AI Image Generator Bot! Here are some commands you can use: \n\n - /start: Start the bot \n - /help: Display this help message  \n - /create: Generate an image from prompt /img < prompt > \n`;
+    const welcomeMessage = `Hey ${name}! \n\nWelcome to Memeartai AI Image Generator Bot! Here are some commands you can use: \n\n - /start: Start the bot \n - /help: Display this help message  \n - /create: Generate an image from prompt /create monad seals < prompt > \n`;
 
 
     bot.sendMessage(chatId, welcomeMessage,);
@@ -38,7 +38,7 @@ bot.onText(/\/start/, (msg) => {
 bot.onText(/\/help/, (msg) => {
     let name = msg.chat.first_name;
     const chatId = msg.chat.id;
-    const helpMessage = `Hey ${name}! \n\nWelcome to Memeartai AI Image Generator Bot! Here are some commands you can use: \n\n - /start: Start the bot \n - /help: Display this help message  \n - /create: Generate an image from prompt /img < prompt > \n`;
+    const helpMessage = `Hey ${name}! \n\nWelcome to Memeartai AI Image Generator Bot! Here are some commands you can use: \n\n - /start: Start the bot \n - /help: Display this help message  \n - /create: Generate an image from prompt /create monad seals < prompt > \n`;
 
 
 
