@@ -57,7 +57,7 @@ bot.onText(/\/create (.+)/, async (msg, match) => {
                 prompt: prompt,
                 model_name: null,
                 loras: [{
-                    path: "https://v3.fal.media/files/tiger/D-ulWnlI3n9QxMrQ4wf1I_pytorch_lora_weights.safetensors",
+                    path: "https://v3.fal.media/files/rabbit/DXUTCNRAiEbEEsHnAF0_H_pytorch_lora_weights.safetensors",
                     scale: 1
                 }],
                 embeddings: [],
