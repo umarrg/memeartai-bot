@@ -80,6 +80,7 @@ bot.onText(/^\/create\s+(\w+)\s+(.+)/i, async (msg, match) => {
                 model_name: null,
                 loras: [{ path, scale }],
                 embeddings: [],
+                image_size: "square_hd",
                 enable_safety_checker: false
             },
             logs: true,
