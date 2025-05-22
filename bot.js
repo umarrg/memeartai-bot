@@ -90,7 +90,7 @@ bot.onText(/^\/create\s+(\w+)\s+(.+)/i, async (msg, match) => {
         });
 
         const imageUrl = result.data.images[0].url;
-        await bot.sendPhoto(chatId, imageUrl, { caption: `🎨 *${styleKey}* style\nPrompt: _${prompt}_`, parse_mode: 'Markdown' });
+        await bot.sendPhoto(chatId, imageUrl);
     } catch (err) {
         console.error(err);
         await bot.sendMessage(chatId, '❌ Failed to generate image. Please try again later.');
